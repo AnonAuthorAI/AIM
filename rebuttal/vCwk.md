@@ -2,7 +2,13 @@
 
 **We provide detailed responses to each of your questions below.**
 
-- ## Q1: Regarding the theoretical underpinnings of AIM_AUG
+- [Q1: Rationale and theoretical underpinning of AIM\_AUG](#q1-rationale-and-theoretical-underpinning-of-aim_aug)
+  - [Connection between AIM\_AUG and AIM\_REM](#connection-between-aim_aug-and-aim_rem)
+  - [The efficacy of AIM\_AUG from a utility and fairness perspective](#the-efficacy-of-aim_aug-from-a-utility-and-fairness-perspective)
+  - [Theoretical underpinning of AIM](#theoretical-underpinning-of-aim)
+- [Q2: Regarding complexity analysis](#q2-regarding-complexity-analysis)
+
+## Q1: Rationale and theoretical underpinning of AIM_AUG
 
 We would like to address your concern by further elaborating on (1) the connection between AIM_AUG and AIM_REM, (2) the efficacy of AIM_AUG from both utility and fairness perspectives, and (3) the theoretical implication of AIM bias attribution.
 
@@ -24,6 +30,6 @@ Finally, we wish to highlight the theoretical implications of the sample-level b
 
 Therefore, AIM's bias definition captures both group-level and individual-level bias. As discussed above, both AIM_AUG/REM reduce the importance of high-bias (violating group and/or individual fairness) samples in the training data, thereby effectively debiasing the original data and lead to more equitable model outcomes.
 
-- ## Q2: Regarding complexity analysis
+## Q2: Regarding complexity analysis
 
 Thank you for your careful reading of our paper. We will relocate the complexity analsysis to the main body of the paper in the 9-page camera-ready version. It was placed in the appendix due to the 8-page limitation for the submission.
